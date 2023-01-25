@@ -16,6 +16,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>Test-devops88</finalName>
+    <finalName>Win-devops88</finalName>
   </build>
 </project>
