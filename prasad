@@ -1,0 +1,96 @@
+git init
+
+git config --global user.name "Polarapu Prasad"
+git config --global user.email "devopstraining2015@gmail.com"
+
+git config --list
+
+git config --global --unset user.name
+git config --global --unset user.email
+
+git config --list
+
+==============================================
+ls
+touch file1
+ls
+git status
+git add file1  (workspace to staging)
+git status
+git commit -m "label" file1 (staging to local)
+git status
+git log
+git show cid
+or
+git show  (latest)
+
+
+-------------------------
+touch file2 file3 file4
+ls
+git status
+git add file2 file3 file4
+or
+git add .
+or
+git add *
+or
+git add -A
+git status
+git commit -m "label"
+git status
+git log
+git show
+
+========================================================
+
+git clone https://github.com/polarapu/batch88.git
+ls
+cd batch88
+ls
+touch prasad
+ls
+git status
+git add prasad
+git status
+git commit -m "label"
+git status
+git log
+git push
+
+Edit some data in any file (manually)
+--------------------------
+ls
+git status
+git add prasad
+git status
+git commit -m "label"
+git status
+git log
+git push
+
+
+Delete
+======
+rm prasad
+ls
+git status
+git add prasad
+git status
+git commit -m "label"
+git status
+git log
+git push
+
+
+
+Directory
+=========
+mkdir dir1
+ls
+cd dir1
+touch file1 file2
+cd ..
+git add .
+git commit -m "sample dir"
+git push
