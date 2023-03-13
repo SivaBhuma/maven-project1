@@ -5,7 +5,7 @@
   <artifactId>ProjectWeb</artifactId>
   <packaging>war</packaging>
   <version>88.0</version>
-  <name>ProjectWeb Maven Webapp</name>
+  <name>prasad</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
